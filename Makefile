@@ -6,7 +6,8 @@ deploy:
 	--exclude *.js \
 	--exclude *.html \
 	--exclude *.css \
-	--exclude .DS_Store \
+	--exclude .git \
+	--exclude *.md \
 	--delete
 
 	echo "Uploading non-cacheable files"
